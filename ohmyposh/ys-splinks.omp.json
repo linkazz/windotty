@@ -1,0 +1,101 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "version": 2,
+    "palette": {
+        "purplePrime": "#a277ff",
+        "purpleLight": "#a394f0",
+        "turquoise": "#61ffca",
+        "white": "#edecee",
+        "red": "#ff6767",
+        "orange": "#ffca85",
+        "grey": "#4d4d4d",
+        "black": "#110f18"
+    },
+    "final_space": true,
+    "blocks": [
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "segments": [
+                {
+                    "type": "python",
+                    "style": "plain",
+                    "foreground": "p:white",
+                    "template": "({{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }})",
+                    "properties": {
+                        "fetch_version": false
+                    }
+                }
+            ]
+        },
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "segments": [
+                {
+                    "type": "text",
+                    "style": "plain",
+                    "foreground": "p:grey",
+                    "template": "# "
+                },
+                {
+                    "type": "root",
+                    "style": "plain",
+                    "foreground": "p:red",
+                    "template": "% "
+                },
+                {
+                    "type": "session",
+                    "style": "plain",
+                    "template": "<p:turquoise>{{ .UserName }}</> <p:grey>@</> <p:purplePrime>{{ .HostName }}</> "
+                },
+                {
+                    "type": "path",
+                    "style": "plain",
+                    "foreground": "p:orange",
+                    "template": "<p:grey>in </>{{ .Path }} ",
+                    "properties": {
+                        "style": "agnoster_short"
+                    }
+                },
+                {
+                    "type": "git",
+                    "style": "plain",
+                    "template": "<p:grey>on</> <p:white></><p:turquoise>{{ .HEAD }}</>{{ if .Working.Changed }}<p:red> x</>{{ end }} ",
+                    "properties": {
+                        "fetch_status": true
+                    }
+                },
+                {
+                    "type": "time",
+                    "style": "plain",
+                    "foreground": "p:grey",
+                    "properties": {
+                        "time_format": "15:04"
+                    },
+                    "template": "[{{ .CurrentDate | date .Format }}]"
+                },
+                {
+                    "type": "status",
+                    "style": "plain",
+                    "foreground": "p:red",
+                    "template": " C:{{ if gt .Code 0 }}{{ .Code }}{{ end }} "
+                }
+            ],
+            "newline": true
+        },
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "segments": [
+                {
+                    "type": "text",
+                    "style": "plain",
+                    "foreground": "p:white",
+                    "template": "❯ "
+                }
+            ],
+            "newline": true
+        }
+    ]
+}

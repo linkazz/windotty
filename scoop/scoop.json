@@ -1,0 +1,213 @@
+{
+    "buckets": [
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2023-06-02T05:25:17+08:00",
+            "Manifests": 1865
+        },
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": "2023-06-02T07:41:06+08:00",
+            "Manifests": 1202
+        },
+        {
+            "Name": "versions",
+            "Source": "https://github.com/ScoopInstaller/Versions",
+            "Updated": "2023-06-02T05:35:26+08:00",
+            "Manifests": 424
+        }
+    ],
+    "apps": [
+        {
+            "Updated": "2023-01-20T20:26:32.2436574+08:00",
+            "Name": "7zip",
+            "Source": "main",
+            "Info": "",
+            "Version": "22.01"
+        },
+        {
+            "Updated": "2023-05-11T10:19:17.5566664+08:00",
+            "Name": "aria2",
+            "Source": "main",
+            "Info": "",
+            "Version": "1.36.0-1"
+        },
+        {
+            "Updated": "2023-03-30T00:04:14.1352539+08:00",
+            "Name": "bat",
+            "Source": "main",
+            "Info": "",
+            "Version": "0.23.0"
+        },
+        {
+            "Updated": "2023-03-29T19:17:03.6482847+08:00",
+            "Name": "bottom",
+            "Source": "main",
+            "Info": "",
+            "Version": "0.8.0"
+        },
+        {
+            "Updated": "2023-05-30T13:27:51.554544+08:00",
+            "Name": "fd",
+            "Source": "main",
+            "Info": "",
+            "Version": "8.7.0"
+        },
+        {
+            "Updated": "2023-04-25T23:04:36.1911606+08:00",
+            "Name": "fend",
+            "Source": "main",
+            "Info": "",
+            "Version": "1.1.6"
+        },
+        {
+            "Updated": "2023-05-23T01:08:39.9814044+08:00",
+            "Name": "ffmpeg",
+            "Source": "main",
+            "Info": "",
+            "Version": "6.0"
+        },
+        {
+            "Updated": "2023-05-12T19:51:53.3040485+08:00",
+            "Name": "Flow-Launcher",
+            "Source": "extras",
+            "Info": "",
+            "Version": "1.15.0"
+        },
+        {
+            "Updated": "2023-06-02T08:01:18.3583717+08:00",
+            "Name": "fzf",
+            "Source": "main",
+            "Info": "",
+            "Version": "0.41.1"
+        },
+        {
+            "Updated": "2023-02-04T02:06:40.7685532+08:00",
+            "Name": "gcc",
+            "Source": "main",
+            "Info": "",
+            "Version": "11.2.0"
+        },
+        {
+            "Updated": "2023-03-29T19:17:19.2755203+08:00",
+            "Name": "git",
+            "Source": "main",
+            "Info": "",
+            "Version": "2.40.0.windows.1"
+        },
+        {
+            "Updated": "2023-05-07T19:11:24.9304469+08:00",
+            "Name": "glow",
+            "Source": "main",
+            "Info": "",
+            "Version": "1.5.0"
+        },
+        {
+            "Updated": "2023-02-04T01:38:50.0328406+08:00",
+            "Name": "innounp",
+            "Source": "main",
+            "Info": "",
+            "Version": "0.50"
+        },
+        {
+            "Updated": "2023-05-07T18:55:54.7656111+08:00",
+            "Name": "latex",
+            "Source": "main",
+            "Info": "",
+            "Version": "23.4"
+        },
+        {
+            "Updated": "2023-03-30T00:06:06.1712822+08:00",
+            "Name": "less",
+            "Source": "main",
+            "Info": "",
+            "Version": "608"
+        },
+        {
+            "Updated": "2023-05-13T00:13:11.5612255+08:00",
+            "Name": "lsd",
+            "Source": "main",
+            "Info": "",
+            "Version": "0.23.1"
+        },
+        {
+            "Updated": "2023-04-25T23:05:01.2407709+08:00",
+            "Name": "ncspot",
+            "Source": "main",
+            "Info": "",
+            "Version": "0.13.1"
+        },
+        {
+            "Updated": "2023-04-25T23:05:11.3727686+08:00",
+            "Name": "neovim",
+            "Source": "main",
+            "Info": "",
+            "Version": "0.9.0"
+        },
+        {
+            "Updated": "2023-05-09T21:11:01.9579471+08:00",
+            "Name": "nilesoft-shell",
+            "Source": "extras",
+            "Info": "",
+            "Version": "1.8.1"
+        },
+        {
+            "Updated": "2023-05-07T18:36:08.6573278+08:00",
+            "Name": "pandoc",
+            "Source": "main",
+            "Info": "",
+            "Version": "3.1.2"
+        },
+        {
+            "Updated": "2023-05-06T04:01:39.4761586+08:00",
+            "Name": "python",
+            "Source": "main",
+            "Info": "",
+            "Version": "3.11.3"
+        },
+        {
+            "Updated": "2023-02-04T01:37:51.1342395+08:00",
+            "Name": "ripgrep",
+            "Source": "main",
+            "Info": "",
+            "Version": "13.0.0"
+        },
+        {
+            "Updated": "2023-05-12T20:03:34.7844487+08:00",
+            "Name": "spicetify-cli",
+            "Source": "main",
+            "Info": "",
+            "Version": "2.18.1"
+        },
+        {
+            "Updated": "2023-05-28T18:37:30.5711068+08:00",
+            "Name": "spotify",
+            "Source": "extras",
+            "Info": "",
+            "Version": "1.2.12.902.g1924b088"
+        },
+        {
+            "Updated": "2023-05-30T10:05:49.6571517+08:00",
+            "Name": "waifu2x-ncnn-vulkan",
+            "Source": "main",
+            "Info": "",
+            "Version": "20220728"
+        },
+        {
+            "Updated": "2023-04-25T23:05:21.4955573+08:00",
+            "Name": "wezterm",
+            "Source": "extras",
+            "Info": "",
+            "Version": "20230408-112425-69ae8472"
+        },
+        {
+            "Updated": "2023-02-04T01:39:27.8578098+08:00",
+            "Name": "wixtoolset",
+            "Source": "main",
+            "Info": "",
+            "Version": "3.11.2"
+        }
+    ]
+}
