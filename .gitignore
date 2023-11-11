@@ -13,3 +13,6 @@ pwsh/modules
 scoop/config.json
 spicetify/Backup
 desktop.ini
+spicetify/Extracted
+pwsh/completions/gh-completions.ps1.bak
+nvim/lazy-lock.json
